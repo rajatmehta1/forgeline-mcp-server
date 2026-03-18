@@ -1,0 +1,22 @@
+# MCP Server
+mcp[cli]
+
+# Web Framework
+fastapi
+uvicorn[standard]
+
+# Database
+asyncpg
+sqlalchemy[asyncio]
+alembic
+
+# Validation & Settings
+pydantic
+pydantic-settings
+python-dotenv
+
+# Auth
+passlib[bcrypt]
+
+# Vector support (for pg_vector)
+pgvector
